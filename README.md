@@ -26,15 +26,15 @@ Plugin LimeSurvey pour générer des emails conformes au **Système de Design de
 
 ### Option 2 : Développement avec Docker
 
-Ce plugin fait partie de la suite [limesurvey-dsfr-suite](https://github.com/bmatge/limesurvey-dsfr-suite), qui fournit un environnement Docker complet pour le développement local et le déploiement en production.
+Ce plugin fait partie de la suite [limesurvey-dsfr-suite](https://github.com/mef-snum-miweb/limesurvey-dsfr-suite), qui fournit un environnement Docker complet pour le développement local et le déploiement en production.
 
 ```bash
 # Cloner les repos au même niveau
 cd ~/GitHub
-git clone https://github.com/bmatge/limesurvey-dsfr-suite.git
-git clone https://github.com/bmatge/limesurvey-theme-dsfr.git
-git clone https://github.com/bmatge/limesurvey-email-dsfr.git
-git clone https://github.com/bmatge/limesurvey-conversation-albert.git
+git clone https://github.com/mef-snum-miweb/limesurvey-dsfr-suite.git
+git clone https://github.com/mef-snum-miweb/limesurvey-theme-dsfr.git
+git clone https://github.com/mef-snum-miweb/limesurvey-email-dsfr.git
+git clone https://github.com/mef-snum-miweb/limesurvey-conversation-albert.git
 
 # Lancer l'environnement de développement
 cd limesurvey-dsfr-suite
